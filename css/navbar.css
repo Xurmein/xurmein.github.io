@@ -1,0 +1,27 @@
+#navStyle{
+    background: rgb(120, 181, 255) !important;
+    font-family: 'Bungee Shade', cursive;
+}
+
+#navStyle a{
+    color: rgb(121, 73, 3);
+    font-size: 40px;
+    margin: 0;
+    left: 10px;
+    padding: 0;
+    border: 0;
+}
+
+#listStyle{
+    margin-left: 20%;
+    font-family: 'Bungee Shade', cursive;
+   
+}
+
+#listStyle a{
+    color: rgb(121, 73, 3);
+    font-size: 25px;
+    justify-content: stretch;
+    margin: auto;
+    padding: 7px;
+}

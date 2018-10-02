@@ -1,0 +1,5 @@
+#tutPage{
+    background: url("../assets/jsWeightRoom.JPG") center no-repeat;
+    overflow: hidden;
+    display: cover fit-content;
+}
