@@ -1,0 +1,46 @@
+#contact{
+    position: relative;
+    bottom: 20px;
+    top: 600px;
+    font-family: 'Marvel', sans-serif;
+    background: url("../assets/creased-crinkled-crumpled-479444.jpg") center no-repeat;
+    background-size: cover;
+}
+
+#contact .container{
+    margin: 0;
+    margin-right: 0;
+    position: relative;
+    
+}
+
+form{
+    width: 100%;
+    padding: 10px;
+    position: relative;
+    bottom: 30px;
+}
+
+.form-group{
+    padding: 5px;
+    margin: 0;
+    display: inline;   
+}
+
+.control-group{
+    padding: 5px;
+    margin: 0;  
+    display: inline; 
+}
+
+#send{
+    background-color: rgb(120, 181, 255);
+    color:  rgb(110, 68, 4);
+    font-family: 'Bungee Shade', arial;
+}
+
+h3{
+    right: 400px;
+    position: relative;
+    margin-right: 150px;
+}

@@ -1,5 +1,43 @@
-#tutPage{
-    background: url("../assets/jsWeightRoom.JPG") center no-repeat;
-    overflow: hidden;
-    display: cover fit-content;
+.col-4{
+    position: relative;
+    top: 100px;
+    float: left;
+    margin: 0;
+    padding:0;
+    background-color:  rgb(110, 68, 4);
+    border: 3px solid rgb(120, 181, 255);
+    border-radius: 15%;
+    display: flex;
+    max-width: 180px;
+    font-family: 'Marvel', sans-serif;
+}
+
+
+.proyectos{
+    float: left;
+    list-style-type: none;
+    margin: 20px;
+    padding-inline-start: 0px;
+}
+
+#cssMonster{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#jsTut{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#nytVidSearch{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+li{
+    color: rgb(120, 181, 255);
 }

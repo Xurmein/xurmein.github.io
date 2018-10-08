@@ -4,3 +4,16 @@
     font-family: 'Marvel', sans-serif;
     text-align: center;
 }
+
+#aboutMe{
+    font-family: 'Marvel', sans-serif;
+}
+
+#about #aboutMe{
+    position: relative;
+    top: 100px;
+}
+
+h2{
+    float: right;
+}

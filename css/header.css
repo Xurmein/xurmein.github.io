@@ -4,5 +4,23 @@
     color: white;
     text-align: center;
     font-family: 'Marvel', sans-serif;
+    position: relative;
+    width: 100%;
+    top: 60px;
+    margin: 0;
+    padding: 0;
+    z-index: -10;
+    height: 255px;
+}
+
+#subH{
+    top: 20px;
+    position: relative;
+    left: -105px;
+}
+
+#lead{
+    position: relative;
+    top: 50px;
 }
 
