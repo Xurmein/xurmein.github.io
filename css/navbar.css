@@ -18,7 +18,7 @@
 
 #listStyle{
     position: absolute;
-    right: 10px;
+    right: 200px;
     font-family: 'Bungee Shade', arial;
 }
 
@@ -31,9 +31,8 @@
 
 .dropdown-menu{
     background: rgb(120, 181, 255);
-    align-content: right;
 }
 
-#navbarDropdownMenuLink .dropdown-menu {
-    align-self: right;
+#navbarDropdownMenuLink {
+    right: 150px;
 }

@@ -4,4 +4,23 @@
     bottom: 0;
     background-color: #78B5FF;
     height: 15px;
+    overflow: hidden;
+}
+
+footer p{
+    font: 1px !important;
+    color: black;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Marvel', sans-serif;
+}
+
+#citation, #citation a {
+    font: 1px !important;
+    color: black;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: 'Marvel', sans-serif;
 }

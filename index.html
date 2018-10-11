@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Marvel" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="./css/main.css">
     <title>This guy's blog-folio</title>
@@ -12,7 +13,7 @@
 <body>
 <!--navBAR-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navStyle">
-            <a class="navbar-brand" href="#">Jake Peacock...</a>
+            <a class="navbar-brand" id="pageTitle" href="#">Jake Peacock...</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
@@ -23,10 +24,10 @@
                     Go to
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <a class="dropdown-item" href="#">About Me</a>
+                    <a class="dropdown-item" href="#about">About Me</a>
                     <a class="dropdown-item" href="./assets/JAKE_PEACOCK_RESUME.docx.pdf">R&#233sum&#233</a>
-                    <a class="dropdown-item" href="#">Projects</a>
-                    <a class="dropdown-item" href="#">Send me a message</a>
+                    <a class="dropdown-item" href="#portfolio">Projects</a>
+                    <a class="dropdown-item" href="#contact">Send me a message</a>
                   </div>
                 </li>
               </ul>
@@ -51,9 +52,10 @@
   <div class="container">
     <aside class="col-4">
       <ul class="proyectos">
-        <div class="row"><li><a href="https://codepen.io/xurmein/pen/WgqZwB" target="_blank"><img src="./assets/halloween-standing-monster-with-raised-arms.svg" id="cssMonster"/></a><label>CSS Monster</label></li></div>
-        <div class="row"><li><a href="https://xurmein.github.io/tutorialPage/" target="_blank"><img src="./assets/js.svg" id="jsTut"/></a><label>.js Tutorials</label></li></div>
-        <div class="row"><li><a href="https://xurmein.github.io/nytVidSearch/" target="blank"><img src="./assets/new-york-city-apple-symbol-with-buildings-shapes-inside.svg" id="nytVidSearch"/></a><label>NYT VidSearch</label></li></div>
+        <div class="row"><li><a href="https://codepen.io/xurmein/pen/WgqZwB" target="_blank"><img src="./assets-portfolio/halloween-standing-monster-with-raised-arms.svg" id="cssMonster"/></a><label>CSS Monster</label></li></div>
+        <div class="row"><li><a href="https://a3-api-goldbadge.firebaseapp.com/" target="_blank"><img src="./assets-portfolio/clapping-hands.svg" id="cheatBeat"></a><label>CheatBeat API</label></li></div>
+        <div class="row"><li><a href="https://xurmein.github.io/tutorialPage/" target="_blank"><img src="./assets-portfolio/js.svg" id="jsTut"/></a><label>.js Tutorials</label></li></div>
+        <div class="row"><li><a href="https://xurmein.github.io/nytVidSearch/" target="blank"><img src="./assets-portfolio/new-york-city-apple-symbol-with-buildings-shapes-inside.svg" id="nytVidSearch"/></a><label>NYT VidSearch</label></li></div>
       </ul>
     </aside>
   </div>
@@ -66,7 +68,11 @@
       <div class="col-8">
         <h3>Who am I!?</h3>
         <p class="abootMe">
-          
+          Besides a handsome man with access to #2 Ticonderogas? Well... I was a philosophy major in college, I reckon the answer to your question would depend on the things you count as contituting a "who." 
+          So!&#8212before getting too far into the weeds on that, let me rattle off a few accolades you might care to know:
+          I'm an Eagle Scout, a table-top gamer, a Woodberry Boy, a philosopher, a Wabash Man, an improvisor, an actor (recently nominated for one of the 2018 Encore Award),
+          a handyman, and--most recently--a student in Eleven Fifty Academy's JavaScript Bootcamp.
+          Anyway, in a few months I'll be looking for Junior Developer positions with employers that have a sense of humor (The Onion, Adult Swim, funny people with money that want a website?). Willing to relocate!
         </p>
     </div>
   </div>
@@ -80,7 +86,6 @@
        <form action="https://formspree.io/wj.pavocrist@gmail.com" method="POST">
          <div class="control-group">
            <div class="form-group">
-             <label>Name</label>
              <input
                type="text"
                class="form-control"
@@ -90,11 +95,11 @@
                data-validation-required-message="Who are you?"
                name="name"
                >
+               <label class="contactTitle">Name</label>
            </div>
          </div>
          <div class="control-group">
            <div class="form-group">
-             <label>Email Address</label>
              <input
                type="email"
                class="form-control" 
@@ -104,6 +109,7 @@
                data-validation-required-message="How am I supposed to get back to you without this?"
                name="_replyto"
              >
+             <label class="contactTitle">Email Address</label>
            </div>
          </div>
          <div class="control-group">
@@ -133,7 +139,15 @@
 
 <section id="footer">
   <footer>
-
+    <p>
+      <div id="citation">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Clapping Hands">Clapping Hands</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div id="citation">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Js">Js</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div id="citation">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Halloween standing monster with raised arms">Halloween standing monster with raised arms</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div id="citation">Icons made by <a href="https://www.flaticon.com/authors/freepik" title="New York city apple symbol with buildings shapes inside">New York city apple symbol with buildings shapes inside</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      <div id="citation">Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Clapping">Clapping</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/"     title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div>
+      contact section photo by icon0.com from Pexels
+      header section photo by Jim Amidon from Wabash College
+    </p>
   </footer>
 </section>
 

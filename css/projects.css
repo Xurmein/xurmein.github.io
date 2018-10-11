@@ -18,6 +18,7 @@
     list-style-type: none;
     margin: 20px;
     padding-inline-start: 0px;
+    align-content: center;
 }
 
 #cssMonster{
@@ -33,6 +34,12 @@
 }
 
 #nytVidSearch{
+    height: 40px;
+    width: 40px;
+    margin: 5px;
+}
+
+#cheatBeat{
     height: 40px;
     width: 40px;
     margin: 5px;
