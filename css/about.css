@@ -1,9 +1,9 @@
 .abootMe{
     color:  white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'Marvel', sans-serif;
     text-align: center;
-    float: right;
+    float: left;
 }
 
 #aboutMe{
@@ -11,8 +11,10 @@
 }
 
 #about #aboutMe{
-    position: relative;
-    top: 100px;
+    position: absolute !important;
+    left: 150px;
+    top: 340px;
+    
 }
 
 h3{

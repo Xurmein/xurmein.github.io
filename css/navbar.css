@@ -17,7 +17,7 @@
 }
 
 #listStyle{
-    position: absolute;
+    position: relative;
     right: 200px;
     font-family: 'Bungee Shade', arial;
 }
